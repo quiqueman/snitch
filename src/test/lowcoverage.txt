@@ -1,0 +1,4 @@
+./custom-shared-lib-test/src/main/java/calypsox/junitUtil/SingletonMockitoUtility.java
+./custom-shared-lib-test/src/main/java/calypsox/junitUtil/staticwrappers/StaticDataFilterMock.java
+./custom-shared-lib-test/src/main/java/calypsox/junitUtil/staticwrappers/ConnectionUtilMock.java
+./custom-shared-lib-test/src/main/java/calypsox/junitUtil/staticwrappers/SwiftParserUtilMock.java
