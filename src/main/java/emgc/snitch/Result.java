@@ -15,7 +15,7 @@ public class Result {
 		commits = authors.size();
 		if (commits > MAX_RESULTS) {
 			commits = MAX_RESULTS;
-			latestComits = authors.subList(0, MAX_RESULTS - 1);
+			latestComits = authors.subList(0, MAX_RESULTS);
 		} else {
 			latestComits = authors;
 		}

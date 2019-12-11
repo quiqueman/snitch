@@ -44,8 +44,8 @@ public class InputFile {
 		final String customProjectDir = cmd.getOptionValue("p");
 		for (int i = 0; i < sourceFiles.size(); i++) {
 			String sourceFile = sourceFiles.get(i);
-			if (sourceFile.contains("/test/)")) {
-				sourceFile = sourceFile.replaceAll("/test/", "/main/").replaceAll("Test\\.java", "\\\\.java");
+			if (sourceFile.contains("/test/")) {
+				sourceFile = sourceFile.replaceAll("/test/", "/main/").replaceAll("Test\\.java", ".java");
 			}
 			final String sourceFileWithProject = calculateProject(customProjectDir, sourceFile);
 			sourceFiles.set(i, sourceFileWithProject);

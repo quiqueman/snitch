@@ -24,11 +24,11 @@ public class GitLog {
 					.info("executing: " + "git log --pretty=format:\"%an\" -- " + path + " in directory " + directory);
 			final Process p = Runtime.getRuntime().exec("git log --pretty=format:\"%an\" -- " + path, null, directory);
 			final BufferedReader bri = new BufferedReader(new InputStreamReader(p.getInputStream()));
+			p.waitFor();
 			while ((line = bri.readLine()) != null) {
 				result.add(line);
 			}
 			bri.close();
-			p.waitFor();
 			cache.put(path, result);
 		}
 
