@@ -93,7 +93,7 @@ public class KnowledgeData {
 			String owner = authorsInDatabase.getProperty(author);
 			if (owner == null) {
 				owner = JOptionPane.showInputDialog("El programador '" + author
-						+ "' es desconocido Â¿sabes quien es? ('skip' para que este programador no se tenga en cuenta)");
+						+ "' es desconocido ¿sabes quien es? ('skip' para que este programador no se tenga en cuenta)");
 
 				if (owner == null || "".equals(owner)) {
 					owner = author;

@@ -1,7 +1,7 @@
-src/test/java/com/bbva/krfn/repo/uploadcsv/AbstractRepoTest.java
 src/test/java/calypsox/tk/event/AsyncCrossWorkflowEventFilterTest.java
 src/test/java/calypsox/apps/reporting/ContingencyTransferReportTemplatePanelTest.java
 src/test/java/calypsox/tk/service/counterpartymodified/CounterPartyModifiedServiceImplTest.java
+src/test/java/calypsox/apps/reporting/CSDTransferReportTemplatePanelTest.java
 src/test/java/calypsox/apps/stpexception/common/CtpyAttributesWindowTest.java
 src/test/java/calypsox/apps/reporting/CustomAmigaFlujosTransferReportTemplatePanelTest.java
 src/test/java/calypsox/apps/reporting/CustomAmigaOperacionesTradeReportTemplatePanelTest.java
@@ -20,7 +20,6 @@ src/test/java/calypsox/importwfcfg/ImportWfCfgTest.java
 src/test/java/calypsox/tk/bo/swift/MT540_IBERCLEARSWIFTFormatterTest.java
 src/test/java/calypsox/tk/util/swiftparser/MT564MessageProcessorTest.java
 src/test/java/calypsox/tk/util/swiftparser/MT566MessageProcessorTest.java
-src/test/java/calypsox/apps/reporting/NROTradeReportTemplatePanelTest.java
 src/test/java/calypsox/engine/asyncworkflow/SettleTransferTaskTest.java
 src/test/java/calypsox/apps/stpexception/STPExceptionDataFrameTest.java
 src/test/java/calypsox/tk/bo/swift/customization/SwiftSenderFXDCustomizerTest.java
@@ -41,7 +40,6 @@ src/test/java/calypsox/tk/event/MultiCollateralTradeEventFilterTest.java
 src/test/java/calypsox/util/sql/swing/SQLFrameTest.java
 src/test/java/calypsox/tk/bo/swift/customization/BICCodeCustomizerTest.java
 src/test/java/calypsox/tk/ccp/match/BreakdownMatcherTest.java
-src/test/java/calypsox/tk/bo/workflow/rule/CheckCustomHasUnsettledXferTradeRuleTest.java
 src/test/java/calypsox/tk/bo/workflow/rule/CheckMandatoryFieldsTradeRuleTest.java
 src/test/java/calypsox/tk/bo/LIQUIDITYMSGMessageFormatterTest.java
 src/test/java/calypsox/tk/report/NROCommonDataTest.java
@@ -55,7 +53,6 @@ src/test/java/calypsox/tk/util/ScheduledTaskUSER_PROFILE_LOADERTest.java
 src/test/java/calypsox/apps/tk/camaras/window/WindowEventsTest.java
 src/test/java/calypsox/tk/bo/workflow/rule/AddFlagManualTransferRuleTest.java
 src/test/java/calypsox/tk/bo/swift/MT527ClearstreamCollateralSWIFTFormatterTest.java
-src/test/java/calypsox/tk/bo/swift/MT527EuroclearCollateralSWIFTFormatterTest.java
 src/test/java/calypsox/engine/PreTradesCheckEngineTest.java
 src/test/java/calypsox/tk/util/logscanner/matcher/RegexMatcherBuilderTest.java
 src/test/java/calypsox/tk/bo/MC_NOTIFICATIONMarginCallMessageFormatterTest.java
@@ -68,15 +65,12 @@ src/test/java/calypsox/tk/bo/swift/MT540SWIFTFormatterTest.java
 src/test/java/calypsox/tk/bo/swift/MT542SWIFTFormatterTest.java
 src/test/java/calypsox/util/CalypsoAccessUtilityTest.java
 src/test/java/calypsox/tk/ccp/reader/AbstractCCPReaderTest.java
-src/test/java/calypsox/tk/bo/workflow/rule/SetCommentIdAttributeMessageRuleTest.java
 src/test/java/calypsox/tk/util/AbstractTradeAndExposureNROProcessorTest.java
 src/test/java/calypsox/tk/bo/workflow/rule/CheckCustomAgreementTradeRuleTest.java
-src/test/java/calypsox/tk/report/CustomMarginCallPositionEntryReportStyleTest.java
 src/test/java/calypsox/tk/bo/workflow/rule/SetTradeClassificationTradeRuleTest.java
 src/test/java/calypsox/tk/ccp/reader/EUREXReaderTest.java
 src/test/java/calypsox/apps/stpexception/controllers/STPExceptionDataFrameControllerTest.java
 src/test/java/calypsox/tk/report/NROTradeReportStyleTest.java
-src/test/java/calypsox/tk/util/ScheduledTaskCustomReportTest.java
 src/test/java/calypsox/tk/refdata/CustomStaticDataFilterTest.java
 src/test/java/calypsox/tk/refdata/validator/CollateralConfigValidatorTest.java
 src/test/java/calypsox/tk/report/NROCashFlowReportStyleTest.java
@@ -85,7 +79,6 @@ src/test/java/calypsox/tk/bo/CONFIRMMessageFormatterTest.java
 src/test/java/calypsox/tk/bo/CONFIRMSecLendingMessageFormatterTest.java
 src/test/java/calypsox/tk/report/CallDepoIntReportTest.java
 src/test/java/calypsox/util/sql/SQLRowTest.java
-src/test/java/calypsox/tk/report/CustomMarginCallPositionEntryReportTest.java
 src/test/java/calypsox/tk/bo/AmigaUtilTest.java
 src/test/java/calypsox/tk/util/userprofileloader/CalypsoAccessUserProfileLoaderTest.java
 src/test/java/calypsox/tk/report/CustomProactiveTradeReportStyleTest.java

@@ -6,10 +6,10 @@ import java.nio.file.Path;
 import org.apache.commons.cli.CommandLine;
 
 public enum FileNames {
-	CRITICAL_ISSUES("criticalissues.txt", "Clases con evidencias crÃ­ticas"),
+	CRITICAL_ISSUES("criticalissues.txt", "Clases con evidencias críticas"),
 	FAILED_TESTS("failedtests.txt", "Test en fallo"),
 	LOW_COVERAGE("lowcoverage.txt", "Clases que necesitan aumentar su cobertura de test unitarios"),
-	DUPLICATED_CODE("duplicatecode.txt", "Clases con código duplicado");
+	DUPLICATED_CODE("duplicatedcode.txt", "Clases con código duplicado");
 
 	private String name;
 	private String title;

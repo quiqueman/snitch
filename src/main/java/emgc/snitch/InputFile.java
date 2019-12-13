@@ -79,12 +79,15 @@ public class InputFile {
 		try (final FileWriter fos = new FileWriter(reportFile, true)) {
 			fos.write("=== ");
 			fos.write(fileName.getTitle());
-			fos.write(" ===\n");
-			fos.write("==================================================================\n");
+			fos.write(" ===\n\n");
+			fos.write("FILE;OWNER;STATISTICS\n");
 			for (final String sourceFile : sourceFiles) {
 				fos.write(sourceFile);
-				fos.write('\t');
-				fos.write(knowledgeData.getResult(sourceFile).toString());
+				fos.write(';');
+				final Result result = knowledgeData.getResult(sourceFile);
+				fos.write(result.getOwner());
+				fos.write(';');
+				fos.write(result.getStatistics());
 				fos.write('\n');
 			}
 			fos.write('\n');

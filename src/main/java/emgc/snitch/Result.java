@@ -38,13 +38,25 @@ public class Result {
 	public String toString() {
 		final StringBuilder builder = new StringBuilder();
 		builder.append("Owner: ");
+		builder.append(getOwner());
 
+		builder.append("\t");
+		builder.append(getStatistics());
+		return builder.toString();
+	}
+
+	public String getOwner() {
 		if (owner == null) {
 			Snitch.LOGGER.severe("Owner is null");
+			return "ERROR: owner is null";
 		} else {
-			builder.append(owner.getName());
+			return owner.getName();
 		}
-		builder.append("\t(last ");
+	}
+
+	public String getStatistics() {
+		final StringBuilder builder = new StringBuilder();
+		builder.append("last ");
 		builder.append(commits);
 		builder.append(" commits: ");
 
@@ -52,8 +64,6 @@ public class Result {
 			builder.append(item);
 			builder.append(", ");
 		}
-
-		builder.append(")");
 		return builder.toString();
 	}
 

@@ -62,7 +62,7 @@ public class Snitch {
 		options.addOption("customProjects", "p", true, "ruta del directorio custom-projects");
 		options.addOption("inputDir", "i", true,
 				"ruta del directorio donde se encuentra las listas de clases y la base de datos");
-		options.addOption("output", "o", true, "fichero donde se dejar√°n los resultados");
+		options.addOption("output", "o", true, "directorio donde se dejar·n los resultados");
 		return options;
 	}
 

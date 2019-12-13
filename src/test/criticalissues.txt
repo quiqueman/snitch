@@ -1,3 +1,0 @@
-custom-shared-lib/src/main/java/calypsox/tk/util/ScheduledTaskExportRegulationFile.java
-custom-shared-lib/src/main/java/calypsox/tk/util/ScheduledTaskImportMCContracts.java
-custom-shared-lib/src/main/java/calypsox/tk/util/ScheduledTaskModifyMessageMT527.java 

@@ -11,7 +11,7 @@ public class Report {
 
 	public Report(final CommandLine commandLine) {
 		final String outputDir = commandLine.getOptionValue("o");
-		reportFile = new File(outputDir, "sonar.txt");
+		reportFile = new File(outputDir, "sonar.csv");
 		if (reportFile.exists()) {
 			reportFile.delete();
 		}
